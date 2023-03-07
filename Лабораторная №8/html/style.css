@@ -1,0 +1,33 @@
+.content-menu{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;
+}
+.nav li {
+    list-style-type: none;
+    margin-top:20px;
+}
+.nav{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.l1:link{
+    text-decoration: none;
+    color : red;
+}
+.l2:visited{
+    color: #8B0000;
+}
+
+.l3:hover{
+    color:green;
+}
+.l4:active{
+    color:rgb(184, 134, 11);
+}

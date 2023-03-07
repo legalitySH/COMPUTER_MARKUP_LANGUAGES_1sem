@@ -1,0 +1,58 @@
+*{
+    font-size: 25px;
+
+}
+li{
+    list-style-type: none;
+}
+.sel li{
+    border:2px dashed black;
+    padding: 20px;
+    background-color: orangered;
+    width: 120px;
+    
+   
+}
+.sel{
+    padding: 0;
+    margin-top: 20px;
+    position: absolute;
+    display: none;
+    left: 1px;
+    top:48px;
+}
+.menu{
+    width: 300px;
+    
+}
+.men{
+    background-color: yellow;
+    padding: 20px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 3px solid black;
+    position: absolute;
+    width: 200px;
+    left:5px;
+    animation-name: menu;
+    animation-duration: 1ms;
+}
+.men:hover .sel{
+    display: block;
+
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+@keyframes menu {
+    from {
+        opacity : 0
+    }
+    to{
+        opacity: 1;
+    }
+}
+

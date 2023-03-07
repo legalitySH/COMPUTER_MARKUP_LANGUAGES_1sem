@@ -1,0 +1,163 @@
+h1{
+    margin-left: 45%;
+}
+
+.size:hover {
+    scale: 0.5;
+    border-radius: 50%;
+}
+
+hr {
+    border: 5px dotted greenyellow;
+}
+
+.deg:hover {
+    rotate: 45deg;
+}
+
+.move:hover {
+    translate: 40px;
+    transform-origin: 100% 0;
+}
+
+.deg2:hover {
+    rotate: -20deg;
+}
+
+.angle1 {
+    transform: perspective(9cm) rotateX(25deg);
+    border: 2px solid black;
+}
+
+.angle2 {
+    transform: perspective(9cm) rotateY(15deg);
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+.angle3 {
+    transform: perspective(9cm) rotateX(40deg);
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+.angle4 {
+    transform: perspective(9cm) rotateY(-15deg);
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+.b1 {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b1:hover {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white
+}
+
+.b2 {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b2:hover {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 4px solid red;
+    outline: 4px solid yellow;
+}
+
+.b3 {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b4:hover {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 8px solid blue;
+    border-right: 8px solid blue;
+}
+
+.b3:hover {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 8px solid green;
+    border-bottom: 8px solid green;
+}
+
+.b4 {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b5 {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b5:hover {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: radial-gradient(closest-side, orange, purple, rgb(0, 225, 255));
+    color: white;
+}
+
+
+
+
+    

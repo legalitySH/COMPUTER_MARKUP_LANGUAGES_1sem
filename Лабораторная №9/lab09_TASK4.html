@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <title>Task4</title>
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+        a {
+            display: inline-block;
+            font-size: 16pt;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 20px 20px;
+            margin-top: 80px;
+            margin-left: 0;
+            border-radius: 8%;
+
+        }
+
+        a:hover {
+            background-color: wheat;
+            color: black;
+        }
+
+        h1 {
+            font-size: 18pt;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: black;
+            color: yellow;
+            padding: 10px 15px;
+        }
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 12pt;
+            border-left: 2px solid rgb(255, 251, 0);
+            border-right: 2px solid rgb(255, 251, 0);
+            background-color: black;
+            color:rgb(247, 201, 75);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="six columns">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="six columns">
+                <nav>
+                    <a href="lab09_TASK1.html">Task1</a>
+                    <a href="lab09_TASK2.html">Task2</a>
+                    <a href="lab09_TASK3(1).html">Task3(1)</a>
+                    <a href="lab09_TASK3(2).html">Task3(2)</a>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns">
+                <h1>Grid-template-columns</h1>
+            </div>
+            <div class="three columns">
+                <h1>Grid-template-rows</h1>
+            </div>
+            <div class="three columns">
+                <h1>Grid-template-areas</h1>
+            </div>
+            <div class="three columns">
+                <h1>Grid-area</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="pcontainer">
+            <div class="three columns">
+                <p>Свойство grid-template-columns устанавливает размер каждой колонки</p>
+            </div>
+            <div class="three columns">
+                <p>Свойство grid-template-rows устанавливают размер каждой строки</p>
+            </div>
+            <div class="three columns">
+                <p>Свойство grid-template-areas принимает в виде значения одну или несколько строк. Каждая строка
+                    (заключённая в кавычки) представляет строку сетки. </p>
+            </div>
+            <div class="three columns">
+                <p>Размещение элементов на получившейся сетке осуществляется путём присвоения свойству grid-area
+                    соответствующего названия области, которую данный элемент должен занять.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

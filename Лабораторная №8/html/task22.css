@@ -1,0 +1,43 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu .bstu,.ctat,.it,.ptamc{
+    display: inline-block;
+    border:2px solid black;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(122, 255, 166);
+    border-radius: 10%;
+    padding: 5px;
+}
+.menu{
+    margin-left:15%;
+}
+.itlist li{
+    list-style-type: none;
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    margin-top: 0.5px;
+    margin-top: 0.5px;
+    padding: 15px 40px;
+    border-radius: 5%;
+    background-color: rgb(186, 238, 197);
+}
+.itlist{
+    position: absolute;
+    top:48px;
+    opacity: 0;
+}
+.it:hover .itlist{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    color:black;
+    vertical-align: middle;
+}
+.bstu:hover,.ctat:hover,.it:hover,.ptamc:hover{
+    opacity: 0.9;
+}

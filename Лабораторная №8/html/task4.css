@@ -1,0 +1,52 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu .bstu,.ctat,.it,.ptamc{
+    display: inline-block;
+    border:2px solid black;
+    height: 30px;
+    width: 220px;
+    text-align: center;
+    text-align: center;
+    background-color: rgb(159, 199, 226);
+    background: url(facultet.png) no-repeat 0 0;
+}
+.menu{
+    margin-left:25%;
+}
+.bstu:hover{
+    background: url(facultet.png) no-repeat 0 0;
+    background-position: 0 0px;
+}
+.it:hover{
+    background: url(facultet.png) no-repeat 0 0;
+    background-position: 0 -30px;
+}
+.ptamc:hover{
+    background: url(facultet.png) no-repeat 0 0;
+    background-position: 0 -90px;
+}
+.ctat:hover {
+    background: url(facultet.png) no-repeat 0 0;
+    background-position: 0 -60px;
+}
+.itlist li{
+    list-style-type: none;
+    height: 30px;
+    width: 180px;
+    border: 2px solid black;
+    margin-top: 0.5px;
+    margin-top: 0.5px;
+}
+.itlist{
+    position: absolute;
+    top:41px;
+    opacity: 0;
+}
+.it:hover .itlist{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

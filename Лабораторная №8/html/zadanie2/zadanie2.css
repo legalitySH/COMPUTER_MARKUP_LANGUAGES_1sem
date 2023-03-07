@@ -1,0 +1,16 @@
+
+li{
+    display: inline;
+    list-style-type: none;
+    border: 1px solid green;
+    margin-right: -4px;
+    padding: 25px 80px;
+    color:green;
+    background-color: yellow;
+    margin-top: 20px;
+}
+a{
+    color:green;
+    text-decoration: none;
+    
+}
